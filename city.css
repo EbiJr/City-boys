@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
 *{
   padding: 0;
   margin: 0;
@@ -5,11 +8,11 @@
   /* color: rgb(47, 47, 122); */
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Fraunces', serif;
+  font-family: "Oswald", sans-serif;
   /* font-family: "Oswald", sans-serif; */
 }
 
-.navbar{
+/* .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,8 +20,8 @@ h1,h2,h3,h4,h5,h6{
   background-color: whitesmoke;
   height: 20vh;
   margin-bottom: 90px;
-}
-.logo img{
+} */
+.logo{
   width: 100px;
   height: auto;
   border-radius: 20px;
@@ -33,6 +36,9 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar a:hover{
  text-decoration: underline rgb(101, 101, 231) 0.15em;
+}
+a, .pick{
+  text-decoration: none;
 }
 button{
   height: 40px;
@@ -70,6 +76,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 margin-bottom: 70px;
+padding-top: 100px;
 }
 .hero-section img{
   height: 350px;
@@ -77,12 +84,14 @@ margin-bottom: 70px;
 }
 .hero-section h6{
 background: rgb(198, 198, 239);
-padding-left: 12px;
-padding-top: 2px;
-width: 210px;
+padding: 12px;
+width: auto;
 height: 18px;
 border-radius: 40px;
 margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .hero-section h1{
   line-height: 50px;
